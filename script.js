@@ -33,7 +33,7 @@ card.appendChild(h2);
 
 
 let location = document.createElement("p");
-location.textContent = business[i].location;
+location.textContent = business[i].address;
 card.appendChild(location);
 
 
@@ -44,3 +44,4 @@ card.appendChild(description);
 document.querySelector("div.cards").appendChild(card);
 }
 });
+
