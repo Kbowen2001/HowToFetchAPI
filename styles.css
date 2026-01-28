@@ -45,6 +45,13 @@ body{
 
 .headerp{
    color:red;
+   text-align: center;
+}
+
+p{
+    padding-top:10px;
+    padding-left:10px;
+    text-align: left;
 }
 
 
