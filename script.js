@@ -26,15 +26,16 @@ for (let i = 0; i < business.length; i++) {
 let card = document.createElement("section");
 // Adds a classname to the section element above
 card.className = "card";
-let h2 = document.createElement("h2");
-h2.textContent = business[i].name;
-card.appendChild(h2);
 
 // Create the image location, you can look up how to add image using javascript
 let img = document.createElement("img");
 img.src = business[i].imageurl;
 img.alt = business[i].name;
 card.appendChild(img);
+
+let h2 = document.createElement("h2");
+h2.textContent = business[i].name;
+card.appendChild(h2);
 
 // Include a business location
 let location = document.createElement("p");
