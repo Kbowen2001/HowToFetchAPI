@@ -29,12 +29,23 @@ card.className = "card";
 let h2 = document.createElement("h2");
 h2.textContent = business[i].name;
 card.appendChild(h2);
-document.querySelector("div.cards").appendChild(card);
 
 // Create the image location, you can look up how to add image using javascript
+let img = document.createElement("img");
+img.src = business[i].imageurl;
+img.alt = business[i].name;
+card.appendChild(img);
 
 // Include a business location
+let location = document.createElement("p");
+location.textContent = business[i].location;
+card.appendChild(location);
 
 // Include a business Description
+let description = document.createElement("p");
+description.textContent = business[i].description;
+card.appendChild(description);
+
+document.querySelector("div.cards").appendChild(card);
 }
 });
