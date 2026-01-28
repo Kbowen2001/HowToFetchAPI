@@ -52,6 +52,12 @@ p{
     padding-top:10px;
     padding-left:10px;
     text-align: left;
+    color:grey
+}
+
+h2{
+    color:rgb(58, 59, 58);
+    margin-left:10px;
 }
 
 
