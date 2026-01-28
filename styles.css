@@ -1,5 +1,5 @@
 body{
-    background-color: red;
+    background-color: rgb(212, 204, 204);
 }
 
 
@@ -9,3 +9,56 @@ body{
   border-radius: 5px; /* 5px rounded corners */
   background-color: white;
 }
+
+
+
+
+@media screen and (max-width: 1400px){
+
+  .banner .welcome {
+    font-size: 40px;
+  }
+
+@media screen and (max-width: 960px){
+
+  .banner .welcome {
+    font-size: 28px;
+  }
+  nav li{
+    font-size: 18px;
+  }
+
+@media screen and (max-width: 700px){
+
+  .banner .welcome {
+    position: relative;
+    text-align: center;
+    padding:10px; 
+  }
+  }  
+  .banner .welcome br{
+    display: none;
+  }
+   .banner .welcome h2 {
+    font-size: 25px;
+   }
+
+   .banner .welcome span{
+    font-size: 1em;
+   }
+     nav li{
+    font-size: 18px;
+  }
+  .images li{
+    width: 100%;
+    display: block;
+    margin: 20px auto;
+  }
+
+  @media screen and (max-width: 560px){
+    nav li{
+      font-size: 20px;
+      display: block;
+      width: 100%;
+      margin: 12px 0;
+  }
