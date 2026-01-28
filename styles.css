@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(212, 204, 204);
+    background-color: rgb(238, 231, 238);
 }
 
 
@@ -52,12 +52,14 @@ p{
     padding-top:10px;
     padding-left:10px;
     text-align: left;
-    color:grey
+    color:grey;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h2{
     color:rgb(58, 59, 58);
     margin-left:10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
