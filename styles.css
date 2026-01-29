@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(235, 232, 232);
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; 
+  background-color: white;
+  width: 300px;
+  height: 400px;
+  margin: 10px;
+  background-position: center center;
+  background-size: cover;
+  display:inline-block;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right:10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius:5px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+.headerp{
+   color:rgb(102, 102, 102);
+   text-align: center;
+}
+
+p{
+    padding-top:10px;
+    padding-left:10px;
+    text-align: left;
+    color:grey;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+    color:rgb(58, 59, 58);
+    margin-left:10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+
+
+/*media stuff*/
+
+@media screen and (max-width: 1400px){
+
+  .banner .welcome {
+    font-size: 40px;
+  }
+
+@media screen and (max-width: 960px){
+
+  .banner .welcome {
+    font-size: 28px;
+  }
+  nav li{
+    font-size: 18px;
+  }
+
+@media screen and (max-width: 700px){
+
+  .banner .welcome {
+    position: relative;
+    text-align: center;
+    padding:10px; 
+  }
+  }  
+  .banner .welcome br{
+    display: none;
+  }
+   .banner .welcome h2 {
+    font-size: 25px;
+   }
+
+   .banner .welcome span{
+    font-size: 1em;
+   }
+     nav li{
+    font-size: 18px;
+  }
+  .images li{
+    width: 100%;
+    display: block;
+    margin: 20px auto;
+  }
+
+  @media screen and (max-width: 560px){
+    nav li{
+      font-size: 20px;
+      display: block;
+      width: 100%;
+      margin: 12px 0;
+      
+  }
+}
